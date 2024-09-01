@@ -31,8 +31,8 @@ const NavBar = () => {
                     <img src={logoUrl} alt="logo" className="h-20 w-20"/>
                 </div>
                 <nav className="hidden md:block">
-                    <ul className="flex flex-row space-x-4 p-4">
-                        <li>
+                    <ul>
+                        <li className="flex flex-row space-x-4 p-4">
                             <a href="/" className="text-gray-600">About Us</a>
                             <a href="#features" className="text-gray-600">Features</a>
                             <a href="#pricing" className="text-gray-600">Pricing</a>

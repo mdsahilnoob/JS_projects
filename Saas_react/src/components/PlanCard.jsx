@@ -5,7 +5,7 @@ const PlanCard = ({ price, title, description, features, isPopular}) => {
         <div className="plan-card border flex flex-col justify-between bg-white/20 backdrop-blur-lg rounded-lg
         h-full p-6 hover:shadow-md text-left relative">
             {isPopular && (
-                <div className="popular-tag absolute-top-6 left-0 bg-indigo-500 text-white px-2 py-1 rounded-t-lg w-full text-center">Popular</div>
+                <div className="popular-tag absolute -top-6 left-0 bg-indigo-500 text-white px-2 py-1 rounded-t-lg w-full text-center">Popular</div>
             )}
             <div>
                 <div className="inline-flex items-end">
